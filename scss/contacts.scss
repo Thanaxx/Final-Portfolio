@@ -1,0 +1,66 @@
+@import "./components";
+
+.contacts-wrapper{
+    padding: 90px;
+
+    @include mobile{
+        padding: 90px 25px;
+    }
+
+    h1{
+        @include heading();
+        color: $dark;
+        font-size: 55px;
+
+        @include mobile{
+            font-size: 40px;
+        }
+    }
+    p{
+        @include description();
+
+        @include mobile{
+            font-size: 16px;
+        }
+    }
+
+        .form-wrapper{
+            margin-top: 30px;
+            form{
+                margin-top: 50px;
+                margin: auto;
+                width: 420px;
+    
+                input[type="text"], input[type="email"], textarea{
+                    width: 100%;
+                    padding: 8px;
+                    margin: 5px;
+                    font-size: 16px;
+                    border: none;
+                    border-bottom: 1px solid $mainColor;
+                    outline: none;
+
+                    &::placeholder{
+                        color: #22222259;
+                    }
+                    &:hover{
+                        outline: 1px solid $dark;
+                    }
+                }
+                
+                .submit-message{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 20px;
+                    
+                    button{
+                        @include button();
+                        background-color: $mainColor;
+                        color: $white;
+                    }
+                }
+            }
+        }
+}
+
+

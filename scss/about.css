@@ -1,0 +1,81 @@
+.about-wrapper .about-container .about-left {
+  text-align: center;
+  margin: auto;
+}
+
+.about-wrapper {
+  height: auto;
+  padding: 90px;
+}
+
+@media screen and (max-width: 500px) {
+  .about-wrapper {
+    padding: 90px 25px;
+  }
+}
+
+.about-wrapper .about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .about-wrapper .about-container {
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about-wrapper .about-container .about-left img {
+    width: 100%;
+  }
+}
+
+.about-wrapper .about-container .about-right {
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .about-wrapper .about-container .about-right {
+    padding-left: 0px;
+  }
+}
+
+.about-wrapper .about-container .about-right h1 {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 5px;
+  color: #3F3D56;
+}
+
+@media screen and (max-width: 500px) {
+  .about-wrapper .about-container .about-right h1 {
+    font-size: 45px;
+  }
+}
+
+.about-wrapper .about-container .about-right p {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: justify;
+  padding: 20px 0;
+}
+
+.about-wrapper .about-container .about-right button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #868B8E;
+  color: #ffff;
+}
+
+.about-wrapper .about-container .about-right button:hover {
+  -webkit-box-shadow: 0px 2px 3px 0px #3F3D56;
+          box-shadow: 0px 2px 3px 0px #3F3D56;
+}
+/*# sourceMappingURL=about.css.map */

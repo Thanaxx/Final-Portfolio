@@ -1,0 +1,91 @@
+@import "./components";
+
+.projects-wrapper{
+    padding: 90px;
+
+    @include mobile{
+        padding: 90px 45px
+    }
+
+    h1{
+        @include headingB();
+
+        @include mobile{
+            font-size: 55px;
+        }
+    }
+    .project-description{
+        @include description();
+    }
+
+    .project-lists{
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+        .project-name{
+            flex: 1;
+            align-items: center;
+            text-align: center;
+            margin: 25px;
+            border-radius: 5px;;
+            background-color: #35353500;
+            border-radius: 12px;
+            margin-bottom: 50px;
+
+            &:hover{
+                border: 1px solid #80808079;
+            }
+
+            img{
+                border-radius: 12px 12px 0px 0px;
+                width: 100%;
+            }
+            
+
+            .project-content{
+                padding: 10px 0;
+                
+                
+                h2{
+                    color: $dark;
+                }
+                p{
+                    font-weight: lighter;
+                    font-size: 16px;
+                    color: $dark;
+                }
+                a{
+                    color: $mainColor;
+
+                    &:hover{
+                        color: $dark;
+                    }
+                }
+            }
+        }
+    }
+
+    // new projects
+    .new-projects{
+        display: none;
+    }
+
+    .view-wrapper{
+        text-align: center;
+    
+        button{
+            @include button();
+            font-size: 20px;
+            background-color: $mainColor;
+            color: white;
+            border-radius: 100px;
+            padding: 10px 30px;
+        }
+    }
+
+
+}
+

@@ -1,0 +1,69 @@
+.services-wrapper {
+  padding: 90px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .services-wrapper {
+    padding: 90px 25px;
+  }
+}
+
+.services-wrapper h1 {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 5px;
+  color: #3F3D56;
+}
+
+@media screen and (max-width: 500px) {
+  .services-wrapper h1 {
+    font-size: 45px;
+  }
+}
+
+.services-wrapper p {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.services-wrapper .services-offered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .services-wrapper .services-offered {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.services-wrapper .services-offered .service-name {
+  margin: 0px 10px;
+  padding: 30px 10px;
+  border-radius: 8px;
+  background-color: #1f1f1f13;
+}
+
+.services-wrapper .services-offered .service-name h3 {
+  font-size: 25px;
+}
+
+.services-wrapper .services-offered .service-name p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 500px) {
+  .services-wrapper .services-offered .service-name {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 10px 0;
+  }
+}
+/*# sourceMappingURL=services.css.map */

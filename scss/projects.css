@@ -1,0 +1,107 @@
+.projects-wrapper {
+  padding: 90px;
+}
+
+@media screen and (max-width: 500px) {
+  .projects-wrapper {
+    padding: 90px 45px;
+  }
+}
+
+.projects-wrapper h1 {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 5px;
+  color: #3F3D56;
+}
+
+@media screen and (max-width: 500px) {
+  .projects-wrapper h1 {
+    font-size: 55px;
+  }
+}
+
+.projects-wrapper .project-description {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.projects-wrapper .project-lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.projects-wrapper .project-lists .project-name {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 25px;
+  border-radius: 5px;
+  background-color: #35353500;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+
+.projects-wrapper .project-lists .project-name:hover {
+  border: 1px solid #80808079;
+}
+
+.projects-wrapper .project-lists .project-name img {
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+}
+
+.projects-wrapper .project-lists .project-name .project-content {
+  padding: 10px 0;
+}
+
+.projects-wrapper .project-lists .project-name .project-content h2 {
+  color: #3F3D56;
+}
+
+.projects-wrapper .project-lists .project-name .project-content p {
+  font-weight: lighter;
+  font-size: 16px;
+  color: #3F3D56;
+}
+
+.projects-wrapper .project-lists .project-name .project-content a {
+  color: #868B8E;
+}
+
+.projects-wrapper .project-lists .project-name .project-content a:hover {
+  color: #3F3D56;
+}
+
+.projects-wrapper .new-projects {
+  display: none;
+}
+
+.projects-wrapper .view-wrapper {
+  text-align: center;
+}
+
+.projects-wrapper .view-wrapper button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 20px;
+  background-color: #868B8E;
+  color: white;
+  border-radius: 100px;
+  padding: 10px 30px;
+}
+/*# sourceMappingURL=projects.css.map */
